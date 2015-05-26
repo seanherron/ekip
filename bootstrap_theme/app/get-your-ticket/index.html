@@ -1,0 +1,47 @@
+---
+layout: default
+title: Get Your Ticket
+---
+
+<!-- Begin page content -->
+
+<section class="bg-2">
+  <div class="col-sm-6 col-sm-offset-3 text-center"><h1 style="padding:20px;background-color:rgba(5,5,5,.8)">Enter Your ZIP Code</h1></div>
+</section> 
+<!--
+<div class="divider" id="section1"></div>
+-->
+<div class="container">
+  <div class="col-sm-12 col-sm-offset-0">
+    <!--
+    <div class="page-header text-center">
+      <h1>Instructions</h1>
+    </div>
+    -->
+
+    <div class="page-header text-center">
+      <h3>The Every Kid in a Park Annual Pass is available to 4th graders during the 2015-2016 school year only.  First, read the terms and conditions.  By entering your ZIP Code below, you indicate you agree to and accept the terms and conditions of the program. </h3>
+    </div>      
+
+<form action="/get-your-ticket/ticket/index.html" method="get">
+	<label for="zip">Enter your ZIP Code</label>
+	<input id="zip" name="zip" class="zip" type="text" value= "" pattern="\d{5}">
+    <input type="submit" value="Get My Voucher!">
+</form>
+      
+  </div>
+</div>
+
+<div class="container">
+	<div class="row"><br />
+		<div class="col-md-12"><p class="text-left"><h4>Progress</h4></p>
+		<div class="progress">
+        <div class="one success-color"></div><div class="two success-color"></div><div class="three success-color"></div>
+  			<div class="progress-bar progress-bar-success" style="width: 67%"></div>
+		</div>
+        <hr />
+		
+	</div>
+	</div>
+</div>
+
